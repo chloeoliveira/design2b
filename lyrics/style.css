@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(131, 65, 65); 
+}
+
+h1{
+    font-family: 'Playfair Display';
+    color:rgb(57, 24, 24);
+    font-size: 60px;
+    
+}
+
+h2{
+    font-family: 'Playfair Display';
+    color:rgb(57, 24, 24);
+    font-size: 27px;
+}
+
+h3{
+    font-family: 'Playfair Display';
+    color:rgb(255, 184, 196);
+    font-size: 20px;
+}
+
+p{
+    
+    font-family: 'Times New Roman', serif;
+    font-size: 15px;
+    
+
+}
+.cinnamon {
+	color: rgb(57, 24, 24);
+}
