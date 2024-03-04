@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: whitesmoke;
+    font-size: 50px;
+
+}
+
+h2{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700
+}
+
+h3{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+h4{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+Li{
+    color: whitesmoke;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif; 
+}
