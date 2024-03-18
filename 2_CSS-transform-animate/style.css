@@ -1,6 +1,8 @@
 body {
     width: 100vw;
-    background-color: black;
+    font-family: fantasy;
+    background-color: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,110,0.47001309880239517) 47%, rgba(0,212,255,1) 100%);;
     color: blue;
     font-size: 60px;
 }
@@ -21,11 +23,18 @@ p {
 @keyframes test {
     0% {
         color: blue;
-        transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(1);
+        transform: skew(-20deg, 20deg) rotate(65deg) scale(2) scale(1);
+    }
+
+    50% {
+        color: palevioletred;
+        transform: skew(-15deg, 15deg) rotate(45deg) scale (1) scale(0.5);
+
+    
     }
 
     100% {
         color: red;
-        transform: skew(-15deg, 15deg) rotate(45deg) scale(2) scale(4) translateY(100);
+        transform: skew(-20deg, 20deg) rotate(65deg) scale(2) scale(4) translateY(100);
     }
 }
