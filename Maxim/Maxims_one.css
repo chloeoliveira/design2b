@@ -18,9 +18,7 @@ body {
 
 
 h1 {
-	background-image: url(https://media.giphy.com/media/9VyZLHpaMxNJyk5KJl/giphy.gif);
-      background-size: 50px 20px;
-	background-size: cover;
+	
 	color: purple;
 	font-size: 100px;
 	line-height: 1;
@@ -30,7 +28,6 @@ h1 {
 p{
     width:  500.688px;
     font-family: Arial, sans-serif;
-   
     font-size: 55px;
 }
 
