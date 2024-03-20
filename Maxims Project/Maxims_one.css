@@ -7,13 +7,37 @@ body {
 
 
 p{
-	color: purple;
+	color: rgb(0, 18, 89);
     width:  500.688px;
     font-family: Arial, sans-serif;
-    font-size: 100px;
+    font-size: 80px;
 	line-height: 1;
 	margin: 10px 0;
     text-align: center;
+    
+}
+
+.MOON {
+    font-size: 100px; /* Change the scale of the word */
+    color: white; /* Change the color of the word */
+    .growing-text {
+        font-size: 100px;
+        animation: growShrink 2s linear infinite;
+    }
+    
+    @keyframes growShrink {
+        0%,{
+            font-size: 100px;
+        } 
+        
+        50% {
+            font-size: 200px;
+        }
+
+        1000% {
+            font-size: 300px;
+        }
+    }
 }
 
 

@@ -1,38 +1,49 @@
 body {
-	
-    
-    
-}
-
-.title {
-	font-family: "Montserrat";
-	text-align: center;
-	color: #FFF;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-    padding-top:100px;
-	letter-spacing: 1px;
+	background-color: aquamarine;
+     
 }
 
 
-h1 {
-	
-	color: rgb(145, 255, 145);
-	font-size: px;
-	line-height: 1;
-	margin: 10px 0;
-}
+
 
 p{
-    width:  500.688px;
+    color: white; 
     font-family: Arial, sans-serif;
-    font-size: 55px;
+    font-size: 120px;
+}
+
+.stacked-words {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stacked-words p {
+    margin: 0;
+}
+
+.moving-word {
+    color: orange;
+    font-family: Arial, sans-serif;
+    font-size: 350px;
+    position: absolute;
+    left: 100%;
+    animation: moveLeft 5s linear infinite;
+}
+
+@keyframes moveLeft {
+    0% {
+        left: 100%;
+    }
+    100% {
+        left: -100%;
+    }
 }
 
 
 a{
-    position: absolute;
+   position: absolute;
    right: 20px;
    bottom: 20px;
    color: rgb(17, 17, 85);
