@@ -1,0 +1,37 @@
+body {
+	background: rgb(250, 67, 98);
+    
+}
+
+
+.lato-regular {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.thick {
+    text-shadow: 4px 4px 0 white, -4px -4px 0 white;
+}
+
+.thin {
+    text-shadow: 1px 1px 0 white, -1px -1px 0 white;
+}
+
+
+a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: green;
+    font-family: "Arial", sans-serif;
+ }
+ 
+ a:hover{
+    color: white;
+ }

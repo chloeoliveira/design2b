@@ -1,9 +1,68 @@
 body {
-	background: ;
+	background: orange;
     
+} 
+  
+p{
+    color: rgb(238, 255, 0); 
+    font-family: Arial, sans-serif;
+    font-size: 30px;
 }
 
+.upper-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.go {
+    font-size: 30px;
+}
+
+.big {
+    font-size: 60px;
+    animation: growShrink 2s infinite alternate;
+}
+
+.or {
+    font-size: 30px;
+}
+
+.home {
+    font-size: 60px;
+    animation: flash 2s;
+}
+
+@keyframes growShrink {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes flash {
+    0%, 49%, 100% {
+        color: black;
+    }
+    50%, 99% {
+        color: blue;
+    }
+}
 
 
 
@@ -13,10 +72,10 @@ a{
     position: absolute;
    right: 20px;
    bottom: 20px;
-   color: rgb(255, 166, 0);
+   color: rgb(238, 255, 0);
    font-family: "Arial", sans-serif;
 }
 
 a:hover{
-   color: rgb(0, 252, 156);
+   color: purple;
 }

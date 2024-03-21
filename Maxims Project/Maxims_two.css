@@ -3,13 +3,12 @@ body {
      
 }
 
-
-
-
 p{
     color: white; 
-    font-family: Arial, sans-serif;
     font-size: 120px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+
 }
 
 .stacked-words {
