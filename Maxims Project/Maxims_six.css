@@ -1,0 +1,67 @@
+body {
+	background: rgb(255, 255, 171);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.arial {
+    font-family: "Arial", sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: rgb(249, 143, 161);
+  }
+
+ 
+  .container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .squiggly-text {
+    font-size: medium;
+    font-family: Arial, sans-serif;
+  }
+  
+  .happy {
+    display: inline-block;
+    animation: squiggle 1s infinite;
+  }
+  
+  @keyframes squiggle {
+    0% {
+      transform: translateX(0) rotate(0deg);
+      color: rgb(80, 80, 252);
+    }
+    25% {
+      transform: translateX(5px) rotate(5deg);
+      color: rgb(255, 91, 91);
+    }
+    50% {
+      transform: translateX(0) rotate(0deg);
+      color: rgb(109, 225, 109);
+    }
+    75% {
+      transform: translateX(-5px) rotate(-5deg);
+      color: orange;
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+      color: purple;
+    }
+  }
+
+
+a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: rgb(222, 130, 240);
+    font-family: "Arial", sans-serif;
+ }
+ 
+ a:hover{
+    color: rgb(254, 166, 3);
+ }

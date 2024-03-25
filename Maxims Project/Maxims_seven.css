@@ -1,0 +1,74 @@
+body {
+	background: rgb(243, 122, 0);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+    
+}
+
+  
+  .container {
+    position: relative;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 196, 0);
+    position: absolute;
+    animation: bounce 2s infinite;
+  }
+  
+  .text {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      top: 0;
+      left: 0;
+    }
+    25% {
+      top: 0;
+      left: calc(100vw - 50px);
+    }
+    50% {
+      top: calc(100vh - 50px);
+      left: calc(100vw - 50px);
+    }
+    75% {
+      top: calc(100vh - 50px);
+      left: 0;
+    }
+  }
+
+
+
+.arial {
+    font-family: "Arial", sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: black;
+  }
+
+
+
+
+
+  a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: black;
+    font-family: "Arial", sans-serif;
+ }
+ 
+ a:hover{
+    color:white;
+ }

@@ -1,0 +1,70 @@
+body {
+	background:darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+   
+    
+}
+
+
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: lightblue;
+}
+  
+
+.circle {
+    display: flex;
+    position: relative;
+    animation: spin 10s linear infinite;
+  }
+  
+  .word {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes moveOut {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50vw);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .word:nth-child(4) {
+    animation: moveOut 6s linear infinite;
+  }
+
+
+a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    font-family: "Arial", sans-serif;
+ }
+ 
+ a:hover{
+    color:rgb(78, 78, 238);
+ }
