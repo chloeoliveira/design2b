@@ -1,18 +1,20 @@
 
 body {
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,110,0.47001309880239517) 47%, rgba(0,212,255,1) 100%);
-    
+	
+	background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 
 p{
-	color: rgb(0, 18, 89);
-    width:  500.688px;
-    font-size: 80px;
+	color: rgb(227, 85, 227);
+    font-size: 55px;
 	line-height: 1;
 	margin: 10px 0;
-    text-align: center;
     font-family: "Bruno Ace", sans-serif;
         font-weight: 400;
         font-style: normal;
@@ -21,28 +23,42 @@ p{
     
 }
 
-.MOON {
-    font-size: 100px; /* Change the scale of the word */
-    color: white; /* Change the color of the word */
-    .growing-text {
-        font-size: 100px;
-        animation: growShrink 2s linear infinite;
-    }
+
+    .center {
+        text-align: center;
+      }
+
+
+      .enlarge {
+        font-size: 60px;
+        animation: growShrink 5s linear infinite;
+        transition: font-size 0.5s;
+        font-size: 250px; 
+        color: rgb(0, 18, 89); 
+         font-family: "Bruno Ace", sans-serif;
+         font-weight: 400;
+         font-style: normal;
+      }
+        
+     
+    
+
+    
     
     @keyframes growShrink {
-        0%,{
-            font-size: 100px;
+        0%{
+            font-size: 120px;
         } 
         
         50% {
-            font-size: 200px;
+            font-size: 140px;
         }
 
         1000% {
-            font-size: 300px;
+            font-size: 160px;
         }
     }
-}
+
 
 
 a{
@@ -56,6 +72,19 @@ a{
 a:hover{
    color: rgb(0, 252, 156);
 }
+
+
+
+
+
+
+
+  
+  
+  
+ 
+  
+ 
 
 
 
