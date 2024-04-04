@@ -1,64 +1,50 @@
 body {
-	background: rgb(243, 122, 0);
+	background: rgba(255, 157, 0, 0.702);
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-   
-    
 }
 
+
+
+.animated-text {
+  font-size: 80px;
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  color: rgb(243, 122, 0);
+  font-weight: 300;
+}
   
-  .container {
-    position: relative;
-  }
-  
-  .circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: rgb(255, 196, 0);
-    position: absolute;
-    animation: bounce 2s infinite;
-  }
   
   .text {
-    font-size: 35px;
+    font-size: 80px;
+   
     text-align: center;
-  }
-  
-  @keyframes bounce {
-    0%, 100% {
-      top: 0;
-      left: 0;
-    }
-    25% {
-      top: 0;
-      left: calc(100vw - 50px);
-    }
-    50% {
-      top: calc(100vh - 50px);
-      left: calc(100vw - 50px);
-    }
-    75% {
-      top: calc(100vh - 50px);
-      left: 0;
-    }
-  }
-
-
-
-.arial {
-    font-family: "Arial", sans-serif;
-    font-size: medium;
-    font-style: normal;
+    font-family: "Comfortaa", sans-serif;
     color: black;
-  }
-
-
-
+    }
+  
+    .bouncing-ball {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: bounceAnimation 2s infinite;
+    }
+    @keyframes bounceAnimation {
+      0% {
+          transform: translate(-50%, -50%) translateY(0);
+      }
+      50% {
+          transform: translate(-50%, -50%) translateY(-200px);
+      }
+      100% {
+          transform: translate(-50%, -50%) translateY(0);
+      }
+    }
 
 
   a{
@@ -72,3 +58,11 @@ body {
  a:hover{
     color:white;
  }
+
+
+
+
+
+
+
+

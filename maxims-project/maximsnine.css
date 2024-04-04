@@ -1,16 +1,27 @@
 body {
 	background:darkblue;
-    
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
    
     
 }
 
 
-.arial {
-    font-family: "Arial", sans-serif;
-    font-size: medium;
+p{
+    font-family: "Lato", sans-serif;
+    line-height: 1;
+    margin: 10px 0;
+    font-size: 95;
+    font-weight: 500;
     font-style: normal;
-    color: lightblue;
+    color: rgb(251, 255, 0);
+}
+
+.center {
+  text-align: center;
 }
 
 .spinning-text {

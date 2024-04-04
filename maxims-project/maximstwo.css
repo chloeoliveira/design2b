@@ -29,7 +29,11 @@ p{
     position: absolute;
     left: 100%;
     animation: moveLeft 5s linear infinite;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 @keyframes moveLeft {
     0% {

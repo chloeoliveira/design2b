@@ -1,18 +1,16 @@
 body {
-	background: orange;
+	background: black;
+    font-family: Arial, sans-serif;
+    color: white; 
     
 } 
   
-p{
-    color: rgb(238, 255, 0); 
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-}
+
 
 .upper-left {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -20;
+    left: 36;
 }
 
 .middle {
@@ -24,45 +22,87 @@ p{
 
 .bottom-right {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 20;
+    right: 75;
 }
 
 .go {
-    font-size: 30px;
+    font-size: 100px;
 }
 
 .big {
-    font-size: 60px;
+    font-size: 130px;
     animation: growShrink 2s infinite alternate;
 }
 
 .or {
-    font-size: 30px;
+    font-size: 60px;
+    text-align: center;
+}
+
+.go {
+    font-size: 100px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    
 }
 
 .home {
-    font-size: 60px;
-    animation: flash 2s;
+    font-size: 85px;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    animation: colorChange 1s infinite;
 }
+
+.enlarge {
+    animation: growShrink 5s linear infinite;
+    transition: font-size 0.5s;
+    font-size: 100px; 
+     
+
+  }
+    
+ 
+
+
+
 
 @keyframes growShrink {
-    0% {
-        transform: scale(1);
+    0%{
+        font-size: 130px;
+    } 
+    
+    50% {
+        font-size: 160px;
     }
-    100% {
-        transform: scale(1.2);
+
+    1000% {
+        font-size: 190px;
     }
 }
 
-@keyframes flash {
-    0%, 49%, 100% {
-        color: black;
+@keyframes color-change {
+
+    0% {
+    color: red;
     }
-    50%, 99% {
-        color: blue;
+
+    33% {
+    color: blue;
     }
-}
+
+    66% {
+    color: green;
+    }
+
+    100% {
+        color: red;
+        }
+    }
+
+
 
 
 
@@ -72,6 +112,7 @@ a{
     position: absolute;
    right: 20px;
    bottom: 20px;
+
    color: rgb(238, 255, 0);
    font-family: "Arial", sans-serif;
 }

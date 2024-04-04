@@ -6,9 +6,9 @@ body {
     
 }
 
-.arial {
+.happy {
     font-family: "Arial", sans-serif;
-    font-size: medium;
+    font-size: 80px;
     font-style: normal;
     color: rgb(249, 143, 161);
   }
@@ -21,11 +21,11 @@ body {
   }
   
   .squiggly-text {
-    font-size: medium;
+    font-size: 80px;
     font-family: Arial, sans-serif;
   }
   
-  .happy {
+  .wife {
     display: inline-block;
     animation: squiggle 1s infinite;
   }
@@ -52,6 +52,36 @@ body {
       color: purple;
     }
   }
+
+  .life {
+    display: inline-block;
+    animation: squiggle 1s infinite;
+  }
+  
+  @keyframes squiggle {
+    0% {
+      transform: translateX(0) rotate(0deg);
+      color: rgb(80, 80, 252);
+    }
+    25% {
+      transform: translateX(5px) rotate(5deg);
+      color: rgb(255, 91, 91);
+    }
+    50% {
+      transform: translateX(0) rotate(0deg);
+      color: rgb(109, 225, 109);
+    }
+    75% {
+      transform: translateX(-5px) rotate(-5deg);
+      color: orange;
+    }
+    100% {
+      transform: translateX(0) rotate(0deg);
+      color: purple;
+    }
+  }
+
+
 
 
 a{
