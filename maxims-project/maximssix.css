@@ -1,97 +1,78 @@
 body {
-	background: rgb(255, 255, 171);
+	background:rgb(244, 156, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
     overflow: hidden;
+  
     
 }
 
-.happy {
-    font-family: "Arial", sans-serif;
-    font-size: 80px;
-    font-style: normal;
-    color: rgb(249, 143, 161);
-  }
 
- 
-  .container {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
+
+p{
+    font-family: "Roboto", sans-serif;
+    line-height: 1;
+  margin: 10px 0;
+  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 133);
+}
+  
+
+.center {
+  text-align: center;
+}
+
+.animated-text{
+    display: flex;
+    position: relative;
+    animation: spin 10s linear infinite;
   }
   
-  .squiggly-text {
-    font-size: 80px;
-    font-family: Arial, sans-serif;
-  }
   
-  .wife {
-    display: inline-block;
-    animation: squiggle 1s infinite;
-  }
-  
-  @keyframes squiggle {
+
+  @keyframes spin {
     0% {
-      transform: translateX(0) rotate(0deg);
-      color: rgb(80, 80, 252);
-    }
-    25% {
-      transform: translateX(5px) rotate(5deg);
-      color: rgb(255, 91, 91);
-    }
-    50% {
-      transform: translateX(0) rotate(0deg);
-      color: rgb(109, 225, 109);
-    }
-    75% {
-      transform: translateX(-5px) rotate(-5deg);
-      color: orange;
+      transform: rotate(0deg);
     }
     100% {
-      transform: translateX(0) rotate(0deg);
-      color: purple;
+      transform: rotate(360deg);
     }
-  }
-
-  .life {
-    display: inline-block;
-    animation: squiggle 1s infinite;
   }
   
-  @keyframes squiggle {
+  @keyframes moveOut {
     0% {
-      transform: translateX(0) rotate(0deg);
-      color: rgb(80, 80, 252);
-    }
-    25% {
-      transform: translateX(5px) rotate(5deg);
-      color: rgb(255, 91, 91);
+      transform: translateX(0);
     }
     50% {
-      transform: translateX(0) rotate(0deg);
-      color: rgb(109, 225, 109);
-    }
-    75% {
-      transform: translateX(-5px) rotate(-5deg);
-      color: orange;
+      transform: translateX(50vw);
     }
     100% {
-      transform: translateX(0) rotate(0deg);
-      color: purple;
+      transform: translateX(0);
     }
   }
-
-
+  
+  .word:nth-child(4) {
+    animation: moveOut 6s linear infinite;
+  }
 
 
 a{
     position: absolute;
     right: 20px;
     bottom: 20px;
-    color: rgb(222, 130, 240);
+    color: white;
     font-family: "Arial", sans-serif;
  }
  
  a:hover{
-    color: rgb(254, 166, 3);
+    color:rgb(78, 78, 238);
  }
+
+
+
+
