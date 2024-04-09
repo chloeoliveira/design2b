@@ -74,29 +74,19 @@ color: black;
 
 }
 
-h1{
-    
+.img-container{
+<img src ="";>  
 }
 
 .container {
     position: absolute;
-    bottom: 30px
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.work-container.left{
-    left: 30px;
 
-}
 
-.about-container.middle{
-    text-align: center; 
-    bottom: 30px
-    
-}
 
-.contact-container.right{
-
-    right: 30px;
-    
-}
 
