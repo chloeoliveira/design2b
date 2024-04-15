@@ -75,8 +75,33 @@ color: black;
 }
 
 .img-container{
-<img src ="";>  
+
+position: absolute;
+width: 607.53px;
+height: 362.34px;
+left: 329.01px;
+top: 380.97px;
+
+background: #D9D9D9;
+border: 25px solid #00FE0A;
+transform: matrix(0.98, -0.21, 0.47, 0.88, 0, 0);
+
+
+/* Vector 19 */
+
+position: absolute;
+width: 488.65px;
+height: 144.32px;
+left: 546.95px;
+top: 613.29px;
+
+background: #D9D9D9;
+border: 25px solid #00FE0A;
+transform: matrix(0.98, -0.21, 0.47, 0.88, 0, 0);
+
 }
+
+
 
 .container {
     position: absolute;
