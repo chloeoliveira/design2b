@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(252, 252, 252);
+    margin: 0;
+}
+
+.email {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 100px;
+    transform: translateY(500%);
+
+}
+
+.insta {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-decoration: none; 
+    color: black;
+    position: absolute;
+    right: 200px;
+    transform: translateY(900%);
+
+}
+
+
+.img-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+
+
+}
+
+.img-container img {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px; 
+    height: 150px; 
+    z-index: -1;
+    
+}
