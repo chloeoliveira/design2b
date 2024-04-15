@@ -1,19 +1,41 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #D9D9D9;
+    margin: 0;
 }
 
-.moving-word {
+.moving-word-chloë{
     color: black;
     font-family: Arial, sans-serif;
     font-size: 250px;
     position: absolute;
+    top: 0px;
+    right: 100%;
+    animation: moveRight 5s linear infinite;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@keyframes moveRight {
+    0% {
+        right: 100%;
+    }
+    100% {
+        right: -100%;
+    }
+}
+
+
+.moving-word-oliveira{
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 250px;
+    position: absolute;
+    bottom: 0px;
     right: 100%;
     animation: moveRight 5s linear infinite;
     justify-content: center;
@@ -33,12 +55,15 @@ body {
 
 nav{
     position: absolute;
-    left: 0;
+    left: 50;
     bottom: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: 35px space-between;
     padding: 30px 40px;
     border-bottom: 1px solid  #D9D9D9; 
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+color: black;
    
 
 }
@@ -48,7 +73,8 @@ nav{
 
 
 .nav-links{
-margin-bottom: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
 color: black;
 }
 
