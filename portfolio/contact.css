@@ -50,3 +50,46 @@ body {
     z-index: -1;
     
 }
+
+
+.img-container-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 10vh;
+
+
+}
+
+.img-container-two img {
+    
+    position: absolute;
+    left: 270px;
+    transform: translateY(1450%);
+    width: 450px; 
+    height: 40px; 
+    z-index: -1;
+    
+}
+
+
+.img-container-three {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 10vh;
+
+
+}
+
+.img-container-three img {
+    
+    position: absolute;
+    left: 70px;
+    transform: translateY(887%);
+    width: 700px; 
+    height: 40px; 
+    z-index: -1;
+}

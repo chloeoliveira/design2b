@@ -8,7 +8,7 @@
 body {
 	
 	font-family: Arial, Helvetica, sans-serif;
-    background-color: FFFFFF;
+    background-color: rgb(252, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,10 @@ body {
   
   .center {
     position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
   }
   
   .name {
@@ -34,3 +38,49 @@ body {
     transform: translate(-50%, -50%);
     padding: 10px;
   }
+
+  .img-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+
+
+}
+
+.img-container img {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px; 
+    height: 150px; 
+    z-index: -1;
+    
+}
+
+
+
+.img-container-two {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    height: 10vh;
+
+
+}
+
+.img-container-two img {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    width: 400px; 
+    height: 150px; 
+    z-index: -1;
+    
+}
