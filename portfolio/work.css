@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+.container {
+    position: relative;
+    
+}
+.image {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+        height: auto;
+    transition: transform 1s ease;
+}
+.image:hover {
+    transform: scale(1.1);
+}
