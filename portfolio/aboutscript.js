@@ -5,8 +5,18 @@ $(document).ready(function() {
       //$("#paragraph").show();
     //});
     $(this).hide();
+  
     $("#paragraph").show();
   });
+
+  $("#img-container-two").hover(function() {
+    $(this).hide();
+  
+    $("#paragraph").show();
+
+  } );
+
+
 
   $("#paragraph").on("mouseout", function() {
     $("#name").show();
