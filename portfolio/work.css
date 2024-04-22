@@ -4,16 +4,32 @@ body {
     overflow: hidden;
     height: 100%;
 }
-.container {
-    position: relative;
+.container-one {
+    position: relative/absolute;
+        display: flex;
+        flex-wrap: wrap;
+        
+        container: relative;
+      }
 
-    
-}
+
+.container-two {
+        position: relative/absolute;
+            display: flex;
+            flex-wrap: wrap;
+           
+            container: relative;
+          }
+          
+
 .image-one {
     position: absolute;
     cursor: pointer;
     width: 275px;
         height: auto;
+        top: 5%;
+        left: 10%;
+
     transition: transform 1s ease;
 }
 .image-one {
@@ -28,9 +44,27 @@ body {
     cursor: pointer;
     width: 275px;
         height: auto;
+        top: -10%;
+        right: 50%;
     transition: transform 1s ease;
 }
 .image-two {
+    transform: scale(1.1);
+}
+
+
+
+.image-three {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+        height: auto;
+        top: -10%;
+        right: 10%;
+        transform: translateY(800%);
+    transition: transform 1s ease;
+}
+.image-three {
     transform: scale(1.1);
 }
 

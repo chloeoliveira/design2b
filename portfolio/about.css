@@ -32,12 +32,26 @@ body {
   
   .paragraph {
     display: none;
-    position: absolute;
+    position: relative;
+    width: 750px; /* Adjust the width of the container as needed */
+    height: 200px; /* Adjust the height of the container as needed */
     top: 50%;
     left: 50%;
+    text-align: center;
     transform: translate(-50%, -50%);
     padding: 10px;
   }
+ 
+
+ 
+  
+  .paragraph p {
+    position: absolute;
+    top: 50px; /* Adjust the top position of the paragraph within the container */
+    left: 50px; /* Adjust the left position of the paragraph within the container */
+  }
+
+
 
   .img-container {
     position: absolute;
