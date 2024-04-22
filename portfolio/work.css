@@ -3,6 +3,7 @@ body {
     padding: 0;
     overflow: hidden;
     height: 100%;
+    background-color: rgb(252, 252, 252);
 }
 .container-one {
     position: relative/absolute;
@@ -25,10 +26,12 @@ body {
 .image-one {
     position: absolute;
     cursor: pointer;
-    width: 275px;
+    width: 250px;
         height: auto;
-        top: 5%;
-        left: 10%;
+        top: 15%;
+        left: 59%;
+        transform: translateY(800%);
+      
 
     transition: transform 1s ease;
 }
@@ -42,10 +45,10 @@ body {
 .image-two {
     position: absolute;
     cursor: pointer;
-    width: 275px;
+    width: 300px;
         height: auto;
-        top: -10%;
-        right: 50%;
+        top: 68%;
+        left: 3%;
     transition: transform 1s ease;
 }
 .image-two {
@@ -57,14 +60,124 @@ body {
 .image-three {
     position: absolute;
     cursor: pointer;
-    width: 275px;
+    width: 145px;
         height: auto;
-        top: -10%;
-        right: 10%;
+        top: 5%;
+        left: 80%;
         transform: translateY(800%);
     transition: transform 1s ease;
 }
 .image-three {
+    transform: scale(1.1);
+}
+
+
+
+.image-four {
+    position: absolute;
+    cursor: pointer;
+    width: 285px;
+        height: auto;
+        top: 30%;
+        left: 27%;
+        transform: translateY(800%);
+    transition: transform 1s ease;
+}
+.image-four {
+    transform: scale(1.1);
+}
+
+
+
+.image-five {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+        height: auto;
+        border: 0.25px solid rgb(229, 226, 226);
+        top: 40%;
+        left: 4%;
+        transform: translateY(800%);
+    transition: transform 1s ease;
+}
+.image-five {
+    transform: scale(1.1);
+}
+
+
+
+.image-six {
+    position: absolute;
+    cursor: pointer;
+    width: 320px;
+        height: auto;
+        top: 75%;
+        left: 75%;
+        transform: translateY(800%);
+    transition: transform 1s ease;
+}
+.image-six {
+    transform: scale(1.1);
+}
+
+
+.image-seven {
+    position: absolute;
+    cursor: pointer;
+    width: 305px;
+        height: auto;
+        top: 76%;
+        left: 50%;
+        transform: translateY(800%);
+    transition: transform 1s ease;
+}
+.image-seven {
+    transform: scale(1.1);
+}
+
+
+.image-eight {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+        height: auto;
+        top: 73%;
+        left: 27%;
+        transform: translateY(800%);
+    transition: transform 1s ease;
+}
+.image-eight {
+    transform: scale(1.1);
+}
+
+.image-nine {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+        height: auto;
+        top: 51%;
+        left: 72%;
+        transform: translateY(800%);
+    transition: transform 1s ease;
+}
+.image-nine {
+    transform: scale(1.1);
+}
+
+
+
+.image-ten {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+        height: auto;
+    
+        top: 5%;
+        left: 2%;
+        translate: (60%, -50%);
+    transition: transform 1s ease;
+}
+.image-ten {
     transform: scale(1.1);
 }
 
