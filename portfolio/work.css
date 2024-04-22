@@ -9,13 +9,59 @@ body {
 
     
 }
-.image {
+.image-one {
     position: absolute;
     cursor: pointer;
     width: 275px;
         height: auto;
     transition: transform 1s ease;
 }
-.image:hover {
+.image-one {
     transform: scale(1.1);
+}
+
+
+
+
+.image-two {
+    position: absolute;
+    cursor: pointer;
+    width: 275px;
+        height: auto;
+    transition: transform 1s ease;
+}
+.image-two {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+.img-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+
+
+}
+
+.img-container img {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px; 
+    height: 150px; 
+    z-index: -1;
+    
 }
