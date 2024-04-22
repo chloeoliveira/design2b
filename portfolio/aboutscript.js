@@ -1,13 +1,19 @@
-let name = document.getElementById('name');
-let paragraph = document.getElementById('paragraph');
+$(document).ready(function() {
+  $("#name").hover(function() {
+    //if($("#name").is(":visible") {
+      //$(this).hide();
+      //$("#paragraph").show();
+    //});
+    $(this).hide();
+    $("#paragraph").show();
+  });
 
-name.addEventListener('hover', () => {
-    paragraph.style.display = 'block';
+  $("#paragraph").on("mouseout", function() {
+    $("#name").show();
+    $(this).hide();
   });
   
-  name.addEventListener('mouseout', () => {
-    paragraph.style.display = 'none';
-  });
+});
 
 
 

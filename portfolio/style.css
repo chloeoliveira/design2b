@@ -12,13 +12,15 @@ body {
 .moving-word-chloë{
 
     position: relative;
+    height: 50%;
     
    
 }
 
 .moving-word-chloë p {
     position: absolute;
-    top: 100px;
+    top: 0px;
+    margin: 0;
     transform: translateY(500%);
    
     color: black;
@@ -53,7 +55,7 @@ span {
 
     position: relative;
     width: 100vw;
-    height: 20vh;
+    height: 50%;
     overflow: hidden;
    
 }
@@ -91,7 +93,7 @@ span {
 
 
 
-nav {
+.nav {
     position: absolute;
     left: 50;
     bottom: 0;
