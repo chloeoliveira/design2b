@@ -8,7 +8,7 @@
 body {
 	
 	font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(252, 252, 252);
+  background-color: rgb(252, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,24 +54,24 @@ body {
 
 
   .img-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 30vh;
+    position: relative/absolute;
+            display: flex;
+            flex-wrap: wrap;
+           
+            container: relative;
 
 
 }
 
-.img-container img {
+.image-one {
     
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 200px; 
-    height: 150px; 
-    z-index: -1;
+  position: absolute;
+  top: 3%;
+  left: 40%;
+ 
+  width: 200px; 
+  height: auto; 
+  z-index: -1;
     
 }
 
