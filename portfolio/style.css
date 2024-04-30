@@ -105,6 +105,7 @@ font-size: 20px;
 color: black;
     display: inline-block;
     margin-right: 250px;
+    
 }
 
 
@@ -123,20 +124,22 @@ color: black;
 
 
 .img-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    position: relative/absolute;
+            display: flex;
+            flex-wrap: wrap;
+           
+            container: relative;
 
 
 }
 
 .img-container img {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: -600%;
+    left: 190%;
+   
+    width: 500px; 
+    height: auto; 
     z-index: -1;
 }
 
