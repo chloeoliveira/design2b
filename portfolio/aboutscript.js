@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#name").hover(function() {
+  $("#name").on("mouseover", function() {
     //if($("#name").is(":visible") {
       //$(this).hide();
       //$("#paragraph").show();
@@ -24,6 +24,10 @@ $(document).ready(function() {
   });
   
 });
+
+
+
+
 
 
 
